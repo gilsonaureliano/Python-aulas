@@ -1,0 +1,11 @@
+nome = str(input('Escreva o seu nome completo: ')).strip()
+print('Seu nome em MAIUSCULO é: ', nome.upper())
+print('Seu nome em minusculo é: ', nome.lower())
+print('Você digitou entre letras e espaços: ', len(nome))
+n1 = (nome.count(' ')) #Contar espaços vazios"
+print('Quantidade de espaços {} '.format(n1))
+print('Quantidades de caracteres digitada sem os espaços: ', len(nome)-n1)
+n2 = nome.split()
+print('Lista no conjunto: {}'.format(n2))
+n3 = len(n2[0])
+print('A primeira palavra tem {} letras'. format(n3))
